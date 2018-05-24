@@ -27,7 +27,7 @@ public class DiceRoller {
     
     public static int rollSeries(){
         Arrays.fill(rollStats, 0);
-        while (seriesLength !=0){
+        while (seriesLength != 0){
             if (dieCount == 1){
                 sum = Die.roll();
             } else if (dieCount == 2){
